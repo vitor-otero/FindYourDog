@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		351AD9B08D27346909AD3E37 /* Pods_FindYourDogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0315C3F7491947EC1D1A8A2C /* Pods_FindYourDogTests.framework */; };
+		4DB17F54F20391BCE28E82F7 /* Pods_FindYourDog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 680BA7AE7B23A433FF54D961 /* Pods_FindYourDog.framework */; };
 		C46224032AA6583300D67482 /* FindYourDogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224022AA6583300D67482 /* FindYourDogApp.swift */; };
-		C46224052AA6583300D67482 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224042AA6583300D67482 /* ContentView.swift */; };
 		C46224072AA6583500D67482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C46224062AA6583500D67482 /* Assets.xcassets */; };
 		C462240A2AA6583500D67482 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C46224092AA6583500D67482 /* Preview Assets.xcassets */; };
 		C46224142AA6583500D67482 /* FindYourDogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224132AA6583500D67482 /* FindYourDogTests.swift */; };
 		C462241E2AA6583500D67482 /* FindYourDogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462241D2AA6583500D67482 /* FindYourDogUITests.swift */; };
 		C46224202AA6583500D67482 /* FindYourDogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462241F2AA6583500D67482 /* FindYourDogUITestsLaunchTests.swift */; };
+		C462242E2AA6698000D67482 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462242D2AA6698000D67482 /* MainView.swift */; };
+		F11A0A1DC450DBADA68F05DF /* Pods_FindYourDog_FindYourDogUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48CD368A7EABD68A281FBC36 /* Pods_FindYourDog_FindYourDogUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +37,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0315C3F7491947EC1D1A8A2C /* Pods_FindYourDogTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindYourDogTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05629944FBA445E13D1A054C /* Pods-FindYourDog-FindYourDogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindYourDog-FindYourDogUITests.debug.xcconfig"; path = "Target Support Files/Pods-FindYourDog-FindYourDogUITests/Pods-FindYourDog-FindYourDogUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		09BC8D406908D8DFDADA156D /* Pods-FindYourDog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindYourDog.debug.xcconfig"; path = "Target Support Files/Pods-FindYourDog/Pods-FindYourDog.debug.xcconfig"; sourceTree = "<group>"; };
+		12C4E1BA4095B83A64AE2B47 /* Pods-FindYourDog-FindYourDogUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindYourDog-FindYourDogUITests.release.xcconfig"; path = "Target Support Files/Pods-FindYourDog-FindYourDogUITests/Pods-FindYourDog-FindYourDogUITests.release.xcconfig"; sourceTree = "<group>"; };
+		17F4BC17C45144CF60D2A2A9 /* Pods-FindYourDog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindYourDog.release.xcconfig"; path = "Target Support Files/Pods-FindYourDog/Pods-FindYourDog.release.xcconfig"; sourceTree = "<group>"; };
+		48CD368A7EABD68A281FBC36 /* Pods_FindYourDog_FindYourDogUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindYourDog_FindYourDogUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		680BA7AE7B23A433FF54D961 /* Pods_FindYourDog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindYourDog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		721709F54B7AA5DB5D3A49FB /* Pods-FindYourDogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindYourDogTests.release.xcconfig"; path = "Target Support Files/Pods-FindYourDogTests/Pods-FindYourDogTests.release.xcconfig"; sourceTree = "<group>"; };
+		9661621BC2577C472DB9891F /* Pods-FindYourDogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindYourDogTests.debug.xcconfig"; path = "Target Support Files/Pods-FindYourDogTests/Pods-FindYourDogTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C46223FF2AA6583300D67482 /* FindYourDog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindYourDog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C46224022AA6583300D67482 /* FindYourDogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindYourDogApp.swift; sourceTree = "<group>"; };
-		C46224042AA6583300D67482 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C46224062AA6583500D67482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C46224092AA6583500D67482 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C462240F2AA6583500D67482 /* FindYourDogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindYourDogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +55,7 @@
 		C46224192AA6583500D67482 /* FindYourDogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindYourDogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C462241D2AA6583500D67482 /* FindYourDogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindYourDogUITests.swift; sourceTree = "<group>"; };
 		C462241F2AA6583500D67482 /* FindYourDogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindYourDogUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C462242D2AA6698000D67482 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DB17F54F20391BCE28E82F7 /* Pods_FindYourDog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				351AD9B08D27346909AD3E37 /* Pods_FindYourDogTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +79,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F11A0A1DC450DBADA68F05DF /* Pods_FindYourDog_FindYourDogUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34203DC6E295C20E48E26D12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				680BA7AE7B23A433FF54D961 /* Pods_FindYourDog.framework */,
+				48CD368A7EABD68A281FBC36 /* Pods_FindYourDog_FindYourDogUITests.framework */,
+				0315C3F7491947EC1D1A8A2C /* Pods_FindYourDogTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83A32842225AC20AB383F46D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09BC8D406908D8DFDADA156D /* Pods-FindYourDog.debug.xcconfig */,
+				17F4BC17C45144CF60D2A2A9 /* Pods-FindYourDog.release.xcconfig */,
+				05629944FBA445E13D1A054C /* Pods-FindYourDog-FindYourDogUITests.debug.xcconfig */,
+				12C4E1BA4095B83A64AE2B47 /* Pods-FindYourDog-FindYourDogUITests.release.xcconfig */,
+				9661621BC2577C472DB9891F /* Pods-FindYourDogTests.debug.xcconfig */,
+				721709F54B7AA5DB5D3A49FB /* Pods-FindYourDogTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C46223F62AA6583300D67482 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +116,8 @@
 				C46224122AA6583500D67482 /* FindYourDogTests */,
 				C462241C2AA6583500D67482 /* FindYourDogUITests */,
 				C46224002AA6583300D67482 /* Products */,
+				83A32842225AC20AB383F46D /* Pods */,
+				34203DC6E295C20E48E26D12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,8 +134,8 @@
 		C46224012AA6583300D67482 /* FindYourDog */ = {
 			isa = PBXGroup;
 			children = (
+				C462242C2AA6696F00D67482 /* Main */,
 				C46224022AA6583300D67482 /* FindYourDogApp.swift */,
-				C46224042AA6583300D67482 /* ContentView.swift */,
 				C46224062AA6583500D67482 /* Assets.xcassets */,
 				C46224082AA6583500D67482 /* Preview Content */,
 			);
@@ -127,6 +167,14 @@
 			path = FindYourDogUITests;
 			sourceTree = "<group>";
 		};
+		C462242C2AA6696F00D67482 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C462242D2AA6698000D67482 /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C46224232AA6583500D67482 /* Build configuration list for PBXNativeTarget "FindYourDog" */;
 			buildPhases = (
+				6EBE338B4994EF10DC525178 /* [CP] Check Pods Manifest.lock */,
 				C46223FB2AA6583300D67482 /* Sources */,
 				C46223FC2AA6583300D67482 /* Frameworks */,
 				C46223FD2AA6583300D67482 /* Resources */,
+				B2A04BC2976C4D5874D8A1B9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C46224262AA6583500D67482 /* Build configuration list for PBXNativeTarget "FindYourDogTests" */;
 			buildPhases = (
+				A5FAD69FC4DD32F7FA537CE0 /* [CP] Check Pods Manifest.lock */,
 				C462240B2AA6583500D67482 /* Sources */,
 				C462240C2AA6583500D67482 /* Frameworks */,
 				C462240D2AA6583500D67482 /* Resources */,
@@ -169,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C46224292AA6583500D67482 /* Build configuration list for PBXNativeTarget "FindYourDogUITests" */;
 			buildPhases = (
+				8BE622E116AE39C459DD82C1 /* [CP] Check Pods Manifest.lock */,
 				C46224152AA6583500D67482 /* Sources */,
 				C46224162AA6583500D67482 /* Frameworks */,
 				C46224172AA6583500D67482 /* Resources */,
+				4198F5C64ED628DCEE8D985D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,12 +305,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4198F5C64ED628DCEE8D985D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindYourDog-FindYourDogUITests/Pods-FindYourDog-FindYourDogUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindYourDog-FindYourDogUITests/Pods-FindYourDog-FindYourDogUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FindYourDog-FindYourDogUITests/Pods-FindYourDog-FindYourDogUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EBE338B4994EF10DC525178 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindYourDog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BE622E116AE39C459DD82C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindYourDog-FindYourDogUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5FAD69FC4DD32F7FA537CE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindYourDogTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2A04BC2976C4D5874D8A1B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindYourDog/Pods-FindYourDog-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindYourDog/Pods-FindYourDog-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FindYourDog/Pods-FindYourDog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C46223FB2AA6583300D67482 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C46224052AA6583300D67482 /* ContentView.swift in Sources */,
+				C462242E2AA6698000D67482 /* MainView.swift in Sources */,
 				C46224032AA6583300D67482 /* FindYourDogApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +567,7 @@
 		};
 		C46224242AA6583500D67482 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09BC8D406908D8DFDADA156D /* Pods-FindYourDog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -441,6 +598,7 @@
 		};
 		C46224252AA6583500D67482 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17F4BC17C45144CF60D2A2A9 /* Pods-FindYourDog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +629,7 @@
 		};
 		C46224272AA6583500D67482 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9661621BC2577C472DB9891F /* Pods-FindYourDogTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +650,7 @@
 		};
 		C46224282AA6583500D67482 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 721709F54B7AA5DB5D3A49FB /* Pods-FindYourDogTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +671,7 @@
 		};
 		C462242A2AA6583500D67482 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05629944FBA445E13D1A054C /* Pods-FindYourDog-FindYourDogUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -529,6 +690,7 @@
 		};
 		C462242B2AA6583500D67482 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12C4E1BA4095B83A64AE2B47 /* Pods-FindYourDog-FindYourDogUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
