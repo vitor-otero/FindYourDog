@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C46224032AA6583300D67482 /* FindYourDogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224022AA6583300D67482 /* FindYourDogApp.swift */; };
+		C46224052AA6583300D67482 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224042AA6583300D67482 /* ContentView.swift */; };
+		C46224072AA6583500D67482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C46224062AA6583500D67482 /* Assets.xcassets */; };
+		C462240A2AA6583500D67482 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C46224092AA6583500D67482 /* Preview Assets.xcassets */; };
+		C46224142AA6583500D67482 /* FindYourDogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224132AA6583500D67482 /* FindYourDogTests.swift */; };
+		C462241E2AA6583500D67482 /* FindYourDogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462241D2AA6583500D67482 /* FindYourDogUITests.swift */; };
+		C46224202AA6583500D67482 /* FindYourDogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462241F2AA6583500D67482 /* FindYourDogUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C46224102AA6583500D67482 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C46223F72AA6583300D67482 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C46223FE2AA6583300D67482;
+			remoteInfo = FindYourDog;
+		};
+		C462241A2AA6583500D67482 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C46223F72AA6583300D67482 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C46223FE2AA6583300D67482;
+			remoteInfo = FindYourDog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C46223FF2AA6583300D67482 /* FindYourDog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindYourDog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C46224022AA6583300D67482 /* FindYourDogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindYourDogApp.swift; sourceTree = "<group>"; };
+		C46224042AA6583300D67482 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C46224062AA6583500D67482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C46224092AA6583500D67482 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C462240F2AA6583500D67482 /* FindYourDogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindYourDogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C46224132AA6583500D67482 /* FindYourDogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindYourDogTests.swift; sourceTree = "<group>"; };
+		C46224192AA6583500D67482 /* FindYourDogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindYourDogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C462241D2AA6583500D67482 /* FindYourDogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindYourDogUITests.swift; sourceTree = "<group>"; };
+		C462241F2AA6583500D67482 /* FindYourDogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindYourDogUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C46223FC2AA6583300D67482 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C462240C2AA6583500D67482 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C46224162AA6583500D67482 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C46223F62AA6583300D67482 = {
+			isa = PBXGroup;
+			children = (
+				C46224012AA6583300D67482 /* FindYourDog */,
+				C46224122AA6583500D67482 /* FindYourDogTests */,
+				C462241C2AA6583500D67482 /* FindYourDogUITests */,
+				C46224002AA6583300D67482 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C46224002AA6583300D67482 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C46223FF2AA6583300D67482 /* FindYourDog.app */,
+				C462240F2AA6583500D67482 /* FindYourDogTests.xctest */,
+				C46224192AA6583500D67482 /* FindYourDogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C46224012AA6583300D67482 /* FindYourDog */ = {
+			isa = PBXGroup;
+			children = (
+				C46224022AA6583300D67482 /* FindYourDogApp.swift */,
+				C46224042AA6583300D67482 /* ContentView.swift */,
+				C46224062AA6583500D67482 /* Assets.xcassets */,
+				C46224082AA6583500D67482 /* Preview Content */,
+			);
+			path = FindYourDog;
+			sourceTree = "<group>";
+		};
+		C46224082AA6583500D67482 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C46224092AA6583500D67482 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C46224122AA6583500D67482 /* FindYourDogTests */ = {
+			isa = PBXGroup;
+			children = (
+				C46224132AA6583500D67482 /* FindYourDogTests.swift */,
+			);
+			path = FindYourDogTests;
+			sourceTree = "<group>";
+		};
+		C462241C2AA6583500D67482 /* FindYourDogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C462241D2AA6583500D67482 /* FindYourDogUITests.swift */,
+				C462241F2AA6583500D67482 /* FindYourDogUITestsLaunchTests.swift */,
+			);
+			path = FindYourDogUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C46223FE2AA6583300D67482 /* FindYourDog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C46224232AA6583500D67482 /* Build configuration list for PBXNativeTarget "FindYourDog" */;
+			buildPhases = (
+				C46223FB2AA6583300D67482 /* Sources */,
+				C46223FC2AA6583300D67482 /* Frameworks */,
+				C46223FD2AA6583300D67482 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindYourDog;
+			productName = FindYourDog;
+			productReference = C46223FF2AA6583300D67482 /* FindYourDog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C462240E2AA6583500D67482 /* FindYourDogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C46224262AA6583500D67482 /* Build configuration list for PBXNativeTarget "FindYourDogTests" */;
+			buildPhases = (
+				C462240B2AA6583500D67482 /* Sources */,
+				C462240C2AA6583500D67482 /* Frameworks */,
+				C462240D2AA6583500D67482 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C46224112AA6583500D67482 /* PBXTargetDependency */,
+			);
+			name = FindYourDogTests;
+			productName = FindYourDogTests;
+			productReference = C462240F2AA6583500D67482 /* FindYourDogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C46224182AA6583500D67482 /* FindYourDogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C46224292AA6583500D67482 /* Build configuration list for PBXNativeTarget "FindYourDogUITests" */;
+			buildPhases = (
+				C46224152AA6583500D67482 /* Sources */,
+				C46224162AA6583500D67482 /* Frameworks */,
+				C46224172AA6583500D67482 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C462241B2AA6583500D67482 /* PBXTargetDependency */,
+			);
+			name = FindYourDogUITests;
+			productName = FindYourDogUITests;
+			productReference = C46224192AA6583500D67482 /* FindYourDogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C46223F72AA6583300D67482 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C46223FE2AA6583300D67482 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					C462240E2AA6583500D67482 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C46223FE2AA6583300D67482;
+					};
+					C46224182AA6583500D67482 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C46223FE2AA6583300D67482;
+					};
+				};
+			};
+			buildConfigurationList = C46223FA2AA6583300D67482 /* Build configuration list for PBXProject "FindYourDog" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C46223F62AA6583300D67482;
+			productRefGroup = C46224002AA6583300D67482 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C46223FE2AA6583300D67482 /* FindYourDog */,
+				C462240E2AA6583500D67482 /* FindYourDogTests */,
+				C46224182AA6583500D67482 /* FindYourDogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C46223FD2AA6583300D67482 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C462240A2AA6583500D67482 /* Preview Assets.xcassets in Resources */,
+				C46224072AA6583500D67482 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C462240D2AA6583500D67482 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C46224172AA6583500D67482 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C46223FB2AA6583300D67482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46224052AA6583300D67482 /* ContentView.swift in Sources */,
+				C46224032AA6583300D67482 /* FindYourDogApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C462240B2AA6583500D67482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46224142AA6583500D67482 /* FindYourDogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C46224152AA6583500D67482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C462241E2AA6583500D67482 /* FindYourDogUITests.swift in Sources */,
+				C46224202AA6583500D67482 /* FindYourDogUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C46224112AA6583500D67482 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C46223FE2AA6583300D67482 /* FindYourDog */;
+			targetProxy = C46224102AA6583500D67482 /* PBXContainerItemProxy */;
+		};
+		C462241B2AA6583500D67482 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C46223FE2AA6583300D67482 /* FindYourDog */;
+			targetProxy = C462241A2AA6583500D67482 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C46224212AA6583500D67482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C46224222AA6583500D67482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C46224242AA6583500D67482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FindYourDog/Preview Content\"";
+				DEVELOPMENT_TEAM = S748LY9WA5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.v0t.FindYourDog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C46224252AA6583500D67482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FindYourDog/Preview Content\"";
+				DEVELOPMENT_TEAM = S748LY9WA5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.v0t.FindYourDog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C46224272AA6583500D67482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S748LY9WA5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.v0t.FindYourDogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindYourDog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FindYourDog";
+			};
+			name = Debug;
+		};
+		C46224282AA6583500D67482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S748LY9WA5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.v0t.FindYourDogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindYourDog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FindYourDog";
+			};
+			name = Release;
+		};
+		C462242A2AA6583500D67482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S748LY9WA5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.v0t.FindYourDogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindYourDog;
+			};
+			name = Debug;
+		};
+		C462242B2AA6583500D67482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S748LY9WA5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.v0t.FindYourDogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindYourDog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C46223FA2AA6583300D67482 /* Build configuration list for PBXProject "FindYourDog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C46224212AA6583500D67482 /* Debug */,
+				C46224222AA6583500D67482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C46224232AA6583500D67482 /* Build configuration list for PBXNativeTarget "FindYourDog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C46224242AA6583500D67482 /* Debug */,
+				C46224252AA6583500D67482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C46224262AA6583500D67482 /* Build configuration list for PBXNativeTarget "FindYourDogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C46224272AA6583500D67482 /* Debug */,
+				C46224282AA6583500D67482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C46224292AA6583500D67482 /* Build configuration list for PBXNativeTarget "FindYourDogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C462242A2AA6583500D67482 /* Debug */,
+				C462242B2AA6583500D67482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C46223F72AA6583300D67482 /* Project object */;
+}
