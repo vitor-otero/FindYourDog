@@ -16,6 +16,7 @@
 		C462241E2AA6583500D67482 /* FindYourDogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462241D2AA6583500D67482 /* FindYourDogUITests.swift */; };
 		C46224202AA6583500D67482 /* FindYourDogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462241F2AA6583500D67482 /* FindYourDogUITestsLaunchTests.swift */; };
 		C462242E2AA6698000D67482 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462242D2AA6698000D67482 /* MainView.swift */; };
+		C46224312AA66AB500D67482 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224302AA66AB500D67482 /* API.swift */; };
 		F11A0A1DC450DBADA68F05DF /* Pods_FindYourDog_FindYourDogUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48CD368A7EABD68A281FBC36 /* Pods_FindYourDog_FindYourDogUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		C462241D2AA6583500D67482 /* FindYourDogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindYourDogUITests.swift; sourceTree = "<group>"; };
 		C462241F2AA6583500D67482 /* FindYourDogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindYourDogUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C462242D2AA6698000D67482 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C46224302AA66AB500D67482 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 		C46224012AA6583300D67482 /* FindYourDog */ = {
 			isa = PBXGroup;
 			children = (
+				C462242F2AA66A9F00D67482 /* Components */,
 				C462242C2AA6696F00D67482 /* Main */,
 				C46224022AA6583300D67482 /* FindYourDogApp.swift */,
 				C46224062AA6583500D67482 /* Assets.xcassets */,
@@ -173,6 +176,14 @@
 				C462242D2AA6698000D67482 /* MainView.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		C462242F2AA66A9F00D67482 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C46224302AA66AB500D67482 /* API.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -414,6 +425,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C462242E2AA6698000D67482 /* MainView.swift in Sources */,
+				C46224312AA66AB500D67482 /* API.swift in Sources */,
 				C46224032AA6583300D67482 /* FindYourDogApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
