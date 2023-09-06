@@ -12,9 +12,7 @@ struct MainView: View {
     
     var body: some View {
         TabView(selection: $selectedTab) {
-            // First Tab (Dog List View)
-            Text("Dog List View")
-            //DogBreedsView()
+            BreedsView()
                 .tabItem {
                     Image(systemName: "list.bullet")
                     Text("Dog List")
@@ -22,8 +20,8 @@ struct MainView: View {
                 .tag(0)
             
             // Second Tab (Search View)
-            Text("Search View")
-            //DogSearchView()
+          
+            SearchView()
                 .tabItem {
                     Image(systemName: "magnifyingglass")
                     Text("Dog Search")
