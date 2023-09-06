@@ -1,5 +1,5 @@
 //
-//  DogBreedModel.swift
+//  BreedModel.swift
 //  FindYourDog
 //
 //  Created by Vítor Otero on 04/09/2023.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct DogBreedModel: Identifiable, Decodable, Equatable {
+struct BreedModel: Identifiable, Decodable, Equatable {
     let id: Int
     let name: String
     let reference_image_id: String
@@ -28,9 +28,9 @@ struct DogBreedModel: Identifiable, Decodable, Equatable {
         let imperial: String
         let metric: String
     }
-  
-    static func == (lhs: DogBreedModel, rhs: DogBreedModel) -> Bool {
     
+    static func == (lhs: BreedModel, rhs: BreedModel) -> Bool {
+        
         return lhs.id == rhs.id &&
         lhs.name == rhs.name &&
         lhs.reference_image_id == rhs.reference_image_id &&
