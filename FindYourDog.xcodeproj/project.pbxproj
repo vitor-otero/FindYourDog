@@ -35,9 +35,11 @@
 		C46224592AA7316000D67482 /* BreedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224582AA7316000D67482 /* BreedListView.swift */; };
 		C462245B2AA742F200D67482 /* BreedToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462245A2AA742F100D67482 /* BreedToggleButton.swift */; };
 		C462245D2AA74D5A00D67482 /* ToggleSortButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462245C2AA74D5A00D67482 /* ToggleSortButton.swift */; };
-		C46224632AA764E100D67482 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224622AA764E100D67482 /* SearchView.swift */; };
-		C46224652AA7732B00D67482 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224642AA7732B00D67482 /* GridView.swift */; };
-		C46224672AA7737600D67482 /* GridViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224662AA7737600D67482 /* GridViewRow.swift */; };
+		C462247B2AA9174E00D67482 /* SearchVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462247A2AA9174E00D67482 /* SearchVM.swift */; };
+		C462247D2AA9177100D67482 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462247C2AA9177000D67482 /* SearchView.swift */; };
+		C462247F2AA91F7500D67482 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462247E2AA91F7500D67482 /* SearchBar.swift */; };
+		C46224812AA91FB600D67482 /* SearchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224802AA91FB600D67482 /* SearchListView.swift */; };
+		C46224832AA91FFA00D67482 /* SearchGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224822AA91FFA00D67482 /* SearchGridView.swift */; };
 		F11A0A1DC450DBADA68F05DF /* Pods_FindYourDog_FindYourDogUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48CD368A7EABD68A281FBC36 /* Pods_FindYourDog_FindYourDogUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -96,9 +98,11 @@
 		C46224582AA7316000D67482 /* BreedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedListView.swift; sourceTree = "<group>"; };
 		C462245A2AA742F100D67482 /* BreedToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedToggleButton.swift; sourceTree = "<group>"; };
 		C462245C2AA74D5A00D67482 /* ToggleSortButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleSortButton.swift; sourceTree = "<group>"; };
-		C46224622AA764E100D67482 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
-		C46224642AA7732B00D67482 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
-		C46224662AA7737600D67482 /* GridViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewRow.swift; sourceTree = "<group>"; };
+		C462247A2AA9174E00D67482 /* SearchVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVM.swift; sourceTree = "<group>"; };
+		C462247C2AA9177000D67482 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		C462247E2AA91F7500D67482 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		C46224802AA91FB600D67482 /* SearchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListView.swift; sourceTree = "<group>"; };
+		C46224822AA91FFA00D67482 /* SearchGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -321,9 +325,10 @@
 		C46224602AA764C300D67482 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C46224622AA764E100D67482 /* SearchView.swift */,
-				C46224642AA7732B00D67482 /* GridView.swift */,
-				C46224662AA7737600D67482 /* GridViewRow.swift */,
+				C462247C2AA9177000D67482 /* SearchView.swift */,
+				C462247E2AA91F7500D67482 /* SearchBar.swift */,
+				C46224802AA91FB600D67482 /* SearchListView.swift */,
+				C46224822AA91FFA00D67482 /* SearchGridView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -331,6 +336,7 @@
 		C46224612AA764CA00D67482 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				C462247A2AA9174E00D67482 /* SearchVM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -578,18 +584,20 @@
 				C46224312AA66AB500D67482 /* API.swift in Sources */,
 				C462245D2AA74D5A00D67482 /* ToggleSortButton.swift in Sources */,
 				C462243B2AA66CAE00D67482 /* BreedVM.swift in Sources */,
-				C46224672AA7737600D67482 /* GridViewRow.swift in Sources */,
 				C46224392AA66C6200D67482 /* BreedsView.swift in Sources */,
 				C46224032AA6583300D67482 /* FindYourDogApp.swift in Sources */,
 				C46224452AA66EF100D67482 /* AsyncImageView.swift in Sources */,
 				C462244C2AA6700600D67482 /* BreedDetailVM.swift in Sources */,
 				C46224592AA7316000D67482 /* BreedListView.swift in Sources */,
-				C46224632AA764E100D67482 /* SearchView.swift in Sources */,
+				C462247D2AA9177100D67482 /* SearchView.swift in Sources */,
 				C462243F2AA66DE400D67482 /* LoadingView.swift in Sources */,
+				C46224812AA91FB600D67482 /* SearchListView.swift in Sources */,
 				C46224372AA66C3900D67482 /* BreedModel.swift in Sources */,
+				C46224832AA91FFA00D67482 /* SearchGridView.swift in Sources */,
+				C462247B2AA9174E00D67482 /* SearchVM.swift in Sources */,
 				C46224572AA7312000D67482 /* BreedGridView.swift in Sources */,
-				C46224652AA7732B00D67482 /* GridView.swift in Sources */,
 				C46224412AA66E2F00D67482 /* BreedGridViewRow.swift in Sources */,
+				C462247F2AA91F7500D67482 /* SearchBar.swift in Sources */,
 				C46224552AA6A1E900D67482 /* ToggleButton.swift in Sources */,
 				C462244E2AA6701C00D67482 /* BreedDetailView.swift in Sources */,
 				C462245B2AA742F200D67482 /* BreedToggleButton.swift in Sources */,
