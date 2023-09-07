@@ -8,11 +8,6 @@
 import Foundation
 import RealmSwift
 
-enum SortOrder {
-    case ascending
-    case descending
-}
-
 enum ViewMode {
     case list
     case grid
@@ -22,18 +17,17 @@ class BreedVM: ObservableObject {
     @Published var breeds: [BreedModel] = []
     @Published var isLoading = true
     @Published var isFetchingData = false
-    @Published var sortOrder: SortOrder = .ascending
     @Published var viewMode: ViewMode = .grid
     
     var realm: Realm?
     var displayedBreeds: [BreedModel] {
-            switch viewMode {
-            case .list:
-                return breeds
-            case .grid:
-                return breeds
-            }
+        switch viewMode {
+        case .list:
+            return breeds
+        case .grid:
+            return breeds
         }
+    }
     private var currentPage = 0
     private let itemsPerPage = 15
     
@@ -107,14 +101,14 @@ class BreedVM: ObservableObject {
         fetchBreeds()
     }
     
-    func sortBreedsAlphabetically() {
-        breeds.sort { $0.name < $1.name }
-        
-        // Update self.breeds with the sorted array
-        self.breeds = breeds
-    }
-    
     func resetPagination() {
         currentPage = 0
     }
+}
+
+extension BreedVM: SortableBreedsViewModel {
+    func sortFilteredBreedsAlphabetically() {
+        breeds.sort { $0.name < $1.name }
+        self.breeds = breeds
+    }    
 }
