@@ -9,18 +9,16 @@ import Foundation
 import Combine
 import Alamofire
 
-class SearchViewModel: ObservableObject {
+enum viewMode {
+    case grid
+    case list
+}
+
+class SearchVM: ObservableObject {
     @Published var searchText = ""
     @Published var dogBreeds: [BreedModel] = []
-    @Published var displayMode: DisplayMode = .grid
-    
-    enum DisplayMode {
-        case grid
-        case list
-    }
-    
-    
-    private var cancellables: Set<AnyCancellable> = []
+    @Published var viewMode: ViewMode = .grid
+     private var cancellables: Set<AnyCancellable> = []
     
     init() {
         $searchText
@@ -60,7 +58,7 @@ class SearchViewModel: ObservableObject {
     }
 }
 
-extension SearchViewModel: SortableBreedsViewModel {
+extension SearchVM: SortableBreedsViewModel {
     func sortFilteredBreedsAlphabetically() {
         self.dogBreeds = self.filteredBreeds.sorted { $0.name.localizedCaseInsensitiveCompare($1.name) == .orderedAscending }
     }
