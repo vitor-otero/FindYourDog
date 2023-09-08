@@ -8,7 +8,8 @@ This iOS app connects to a Dog API, offering three primary views:
 
     **Features:**
     - Display dog breeds in a grid or list format.
-    - Donwload the image and save the data into Realm to download only once.
+    - Use pagination to load as you scroll down.
+    - Download the image and save the data into Realm to download only once.
     - Show an image of the breed.
     - Tap on a breed to access its detailed information in the Breed Details View.
 
