@@ -8,32 +8,30 @@
 import SwiftUI
 
 struct SearchView: View {
-    @StateObject private var viewModel = SearchViewModel() 
+    @StateObject private var viewModel = SearchVM()
     
     var body: some View {
         NavigationView {
             VStack {
                 HStack {
-                    Picker("Display Mode", selection: $viewModel.displayMode) {
-                        Text("Grid").tag(SearchViewModel.DisplayMode.grid)
-                        Text("List").tag(SearchViewModel.DisplayMode.list)
+                    ToggleButton(title: "Grid", selected: viewModel.viewMode == .grid) {
+                        viewModel.viewMode = .grid
                     }
-                    .pickerStyle(SegmentedPickerStyle())
-                    
+                    ToggleButton(title: "List", selected: viewModel.viewMode == .list) {
+                        viewModel.viewMode = .list
+                    }
                     Spacer()
                     ToggleSortButton(viewModel: viewModel)
-                    
                 }
                 .padding()
+                
                 SearchBar(text: $viewModel.searchText, onSearch: viewModel.fetchDogBreeds)
                 
-                
-                if viewModel.displayMode == .grid {
+                if viewModel.viewMode == .grid {
                     SearchGridView(breeds: viewModel.filteredBreeds)
                 } else {
                     SearchListView(breeds: viewModel.filteredBreeds)
                 }
-                
                 Spacer()
             }
             .navigationBarHidden(true)
