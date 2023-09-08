@@ -7,13 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		351AD9B08D27346909AD3E37 /* Pods_FindYourDogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0315C3F7491947EC1D1A8A2C /* Pods_FindYourDogTests.framework */; };
+		4DB17F54F20391BCE28E82F7 /* Pods_FindYourDog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 680BA7AE7B23A433FF54D961 /* Pods_FindYourDog.framework */; };
 		C46224032AA6583300D67482 /* FindYourDogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224022AA6583300D67482 /* FindYourDogApp.swift */; };
-		C46224052AA6583300D67482 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224042AA6583300D67482 /* ContentView.swift */; };
 		C46224072AA6583500D67482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C46224062AA6583500D67482 /* Assets.xcassets */; };
 		C462240A2AA6583500D67482 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C46224092AA6583500D67482 /* Preview Assets.xcassets */; };
-		C46224142AA6583500D67482 /* FindYourDogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224132AA6583500D67482 /* FindYourDogTests.swift */; };
 		C462241E2AA6583500D67482 /* FindYourDogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462241D2AA6583500D67482 /* FindYourDogUITests.swift */; };
 		C46224202AA6583500D67482 /* FindYourDogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462241F2AA6583500D67482 /* FindYourDogUITestsLaunchTests.swift */; };
+		C462242E2AA6698000D67482 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462242D2AA6698000D67482 /* MainView.swift */; };
+		C46224312AA66AB500D67482 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224302AA66AB500D67482 /* API.swift */; };
+		C46224372AA66C3900D67482 /* BreedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224362AA66C3900D67482 /* BreedModel.swift */; };
+		C46224392AA66C6200D67482 /* BreedsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224382AA66C6200D67482 /* BreedsView.swift */; };
+		C462243B2AA66CAE00D67482 /* BreedVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462243A2AA66CAE00D67482 /* BreedVM.swift */; };
+		C462243F2AA66DE400D67482 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462243E2AA66DE400D67482 /* LoadingView.swift */; };
+		C46224412AA66E2F00D67482 /* BreedGridViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224402AA66E2F00D67482 /* BreedGridViewRow.swift */; };
+		C46224432AA66E7E00D67482 /* BreedImageLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224422AA66E7E00D67482 /* BreedImageLoaderView.swift */; };
+		C46224452AA66EF100D67482 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224442AA66EF100D67482 /* AsyncImageView.swift */; };
+		C462244C2AA6700600D67482 /* BreedDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462244B2AA6700600D67482 /* BreedDetailVM.swift */; };
+		C462244E2AA6701C00D67482 /* BreedDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462244D2AA6701C00D67482 /* BreedDetailView.swift */; };
+		C46224502AA6704800D67482 /* BreedDetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462244F2AA6704800D67482 /* BreedDetailRow.swift */; };
+		C46224522AA6845000D67482 /* BreedListViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224512AA6845000D67482 /* BreedListViewRow.swift */; };
+		C46224532AA68ACA00D67482 /* BreedsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224382AA66C6200D67482 /* BreedsView.swift */; };
+		C46224552AA6A1E900D67482 /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224542AA6A1E900D67482 /* ToggleButton.swift */; };
+		C46224572AA7312000D67482 /* BreedGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224562AA7312000D67482 /* BreedGridView.swift */; };
+		C46224592AA7316000D67482 /* BreedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224582AA7316000D67482 /* BreedListView.swift */; };
+		C462245B2AA742F200D67482 /* BreedToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462245A2AA742F100D67482 /* BreedToggleButton.swift */; };
+		C462245D2AA74D5A00D67482 /* ToggleSortButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462245C2AA74D5A00D67482 /* ToggleSortButton.swift */; };
+		C462247B2AA9174E00D67482 /* SearchVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462247A2AA9174E00D67482 /* SearchVM.swift */; };
+		C462247D2AA9177100D67482 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462247C2AA9177000D67482 /* SearchView.swift */; };
+		C462247F2AA91F7500D67482 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462247E2AA91F7500D67482 /* SearchBar.swift */; };
+		C46224812AA91FB600D67482 /* SearchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224802AA91FB600D67482 /* SearchListView.swift */; };
+		C46224832AA91FFA00D67482 /* SearchGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224822AA91FFA00D67482 /* SearchGridView.swift */; };
+		C46224872AAA957300D67482 /* ColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224862AAA957300D67482 /* ColorExt.swift */; };
+		C462248B2AAAB0C300D67482 /* mockData.json in Resources */ = {isa = PBXBuildFile; fileRef = C462248A2AAAB0C300D67482 /* mockData.json */; };
+		C462248C2AAAB0C300D67482 /* mockData.json in Resources */ = {isa = PBXBuildFile; fileRef = C462248A2AAAB0C300D67482 /* mockData.json */; };
+		C462248D2AAAB0C300D67482 /* mockData.json in Resources */ = {isa = PBXBuildFile; fileRef = C462248A2AAAB0C300D67482 /* mockData.json */; };
+		C4B1574E2AAABC9C00A108E6 /* BreedVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462243A2AA66CAE00D67482 /* BreedVM.swift */; };
+		C4B1574F2AAABCB800A108E6 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462243E2AA66DE400D67482 /* LoadingView.swift */; };
+		C4B157502AAABCE500A108E6 /* BreedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224362AA66C3900D67482 /* BreedModel.swift */; };
+		C4B157512AAABCE900A108E6 /* BreedGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224562AA7312000D67482 /* BreedGridView.swift */; };
+		C4B157522AAABCEB00A108E6 /* BreedGridViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224402AA66E2F00D67482 /* BreedGridViewRow.swift */; };
+		C4B157532AAABCEE00A108E6 /* BreedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224582AA7316000D67482 /* BreedListView.swift */; };
+		C4B157542AAABCF000A108E6 /* BreedListViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224512AA6845000D67482 /* BreedListViewRow.swift */; };
+		C4B157552AAABCF200A108E6 /* BreedImageLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224422AA66E7E00D67482 /* BreedImageLoaderView.swift */; };
+		C4B157562AAABCF400A108E6 /* BreedToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462245A2AA742F100D67482 /* BreedToggleButton.swift */; };
+		C4B157572AAABCF900A108E6 /* BreedDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462244D2AA6701C00D67482 /* BreedDetailView.swift */; };
+		C4B157582AAABCFC00A108E6 /* BreedDetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462244F2AA6704800D67482 /* BreedDetailRow.swift */; };
+		C4B157592AAABD0000A108E6 /* BreedDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462244B2AA6700600D67482 /* BreedDetailVM.swift */; };
+		C4B1575A2AAABD0300A108E6 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224442AA66EF100D67482 /* AsyncImageView.swift */; };
+		C4B1575B2AAABD0600A108E6 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224302AA66AB500D67482 /* API.swift */; };
+		C4B1575D2AAABD2100A108E6 /* ColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224862AAA957300D67482 /* ColorExt.swift */; };
+		C4B1575E2AAABD3400A108E6 /* ToggleSortButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462245C2AA74D5A00D67482 /* ToggleSortButton.swift */; };
+		C4B1575F2AAABD4400A108E6 /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224542AA6A1E900D67482 /* ToggleButton.swift */; };
+		C4B157622AAABF7000A108E6 /* FindYourDogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224022AA6583300D67482 /* FindYourDogApp.swift */; };
+		C4B157632AAABF8F00A108E6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462242D2AA6698000D67482 /* MainView.swift */; };
+		C4B157672AAAC06F00A108E6 /* SearchGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224822AA91FFA00D67482 /* SearchGridView.swift */; };
+		C4B157682AAAC07300A108E6 /* SearchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224802AA91FB600D67482 /* SearchListView.swift */; };
+		C4B157692AAAC07500A108E6 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462247E2AA91F7500D67482 /* SearchBar.swift */; };
+		C4B1576A2AAAC07800A108E6 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462247C2AA9177000D67482 /* SearchView.swift */; };
+		C4B1576B2AAAC07A00A108E6 /* SearchVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462247A2AA9174E00D67482 /* SearchVM.swift */; };
+		C4B1576C2AAAC0B500A108E6 /* BreedPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462243C2AA66D8A00D67482 /* BreedPersistence.swift */; };
+		F11A0A1DC450DBADA68F05DF /* Pods_FindYourDog_FindYourDogUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48CD368A7EABD68A281FBC36 /* Pods_FindYourDog_FindYourDogUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +88,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0315C3F7491947EC1D1A8A2C /* Pods_FindYourDogTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindYourDogTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05629944FBA445E13D1A054C /* Pods-FindYourDog-FindYourDogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindYourDog-FindYourDogUITests.debug.xcconfig"; path = "Target Support Files/Pods-FindYourDog-FindYourDogUITests/Pods-FindYourDog-FindYourDogUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		09BC8D406908D8DFDADA156D /* Pods-FindYourDog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindYourDog.debug.xcconfig"; path = "Target Support Files/Pods-FindYourDog/Pods-FindYourDog.debug.xcconfig"; sourceTree = "<group>"; };
+		12C4E1BA4095B83A64AE2B47 /* Pods-FindYourDog-FindYourDogUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindYourDog-FindYourDogUITests.release.xcconfig"; path = "Target Support Files/Pods-FindYourDog-FindYourDogUITests/Pods-FindYourDog-FindYourDogUITests.release.xcconfig"; sourceTree = "<group>"; };
+		17F4BC17C45144CF60D2A2A9 /* Pods-FindYourDog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindYourDog.release.xcconfig"; path = "Target Support Files/Pods-FindYourDog/Pods-FindYourDog.release.xcconfig"; sourceTree = "<group>"; };
+		48CD368A7EABD68A281FBC36 /* Pods_FindYourDog_FindYourDogUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindYourDog_FindYourDogUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		680BA7AE7B23A433FF54D961 /* Pods_FindYourDog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindYourDog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		721709F54B7AA5DB5D3A49FB /* Pods-FindYourDogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindYourDogTests.release.xcconfig"; path = "Target Support Files/Pods-FindYourDogTests/Pods-FindYourDogTests.release.xcconfig"; sourceTree = "<group>"; };
+		9661621BC2577C472DB9891F /* Pods-FindYourDogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindYourDogTests.debug.xcconfig"; path = "Target Support Files/Pods-FindYourDogTests/Pods-FindYourDogTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C46223FF2AA6583300D67482 /* FindYourDog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindYourDog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C46224022AA6583300D67482 /* FindYourDogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindYourDogApp.swift; sourceTree = "<group>"; };
-		C46224042AA6583300D67482 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C46224062AA6583500D67482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C46224092AA6583500D67482 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C462240F2AA6583500D67482 /* FindYourDogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindYourDogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C46224132AA6583500D67482 /* FindYourDogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindYourDogTests.swift; sourceTree = "<group>"; };
 		C46224192AA6583500D67482 /* FindYourDogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindYourDogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C462241D2AA6583500D67482 /* FindYourDogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindYourDogUITests.swift; sourceTree = "<group>"; };
 		C462241F2AA6583500D67482 /* FindYourDogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindYourDogUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C462242D2AA6698000D67482 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C46224302AA66AB500D67482 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		C46224362AA66C3900D67482 /* BreedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedModel.swift; sourceTree = "<group>"; };
+		C46224382AA66C6200D67482 /* BreedsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedsView.swift; sourceTree = "<group>"; };
+		C462243A2AA66CAE00D67482 /* BreedVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedVM.swift; sourceTree = "<group>"; };
+		C462243C2AA66D8A00D67482 /* BreedPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedPersistence.swift; sourceTree = "<group>"; };
+		C462243E2AA66DE400D67482 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		C46224402AA66E2F00D67482 /* BreedGridViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedGridViewRow.swift; sourceTree = "<group>"; };
+		C46224422AA66E7E00D67482 /* BreedImageLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedImageLoaderView.swift; sourceTree = "<group>"; };
+		C46224442AA66EF100D67482 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		C462244B2AA6700600D67482 /* BreedDetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedDetailVM.swift; sourceTree = "<group>"; };
+		C462244D2AA6701C00D67482 /* BreedDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedDetailView.swift; sourceTree = "<group>"; };
+		C462244F2AA6704800D67482 /* BreedDetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedDetailRow.swift; sourceTree = "<group>"; };
+		C46224512AA6845000D67482 /* BreedListViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedListViewRow.swift; sourceTree = "<group>"; };
+		C46224542AA6A1E900D67482 /* ToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
+		C46224562AA7312000D67482 /* BreedGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedGridView.swift; sourceTree = "<group>"; };
+		C46224582AA7316000D67482 /* BreedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedListView.swift; sourceTree = "<group>"; };
+		C462245A2AA742F100D67482 /* BreedToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedToggleButton.swift; sourceTree = "<group>"; };
+		C462245C2AA74D5A00D67482 /* ToggleSortButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleSortButton.swift; sourceTree = "<group>"; };
+		C462247A2AA9174E00D67482 /* SearchVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVM.swift; sourceTree = "<group>"; };
+		C462247C2AA9177000D67482 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		C462247E2AA91F7500D67482 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		C46224802AA91FB600D67482 /* SearchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListView.swift; sourceTree = "<group>"; };
+		C46224822AA91FFA00D67482 /* SearchGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchGridView.swift; sourceTree = "<group>"; };
+		C46224862AAA957300D67482 /* ColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExt.swift; sourceTree = "<group>"; };
+		C462248A2AAAB0C300D67482 /* mockData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = mockData.json; path = FindYourDog/Components/mockData.json; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DB17F54F20391BCE28E82F7 /* Pods_FindYourDog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				351AD9B08D27346909AD3E37 /* Pods_FindYourDogTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +154,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F11A0A1DC450DBADA68F05DF /* Pods_FindYourDog_FindYourDogUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34203DC6E295C20E48E26D12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				680BA7AE7B23A433FF54D961 /* Pods_FindYourDog.framework */,
+				48CD368A7EABD68A281FBC36 /* Pods_FindYourDog_FindYourDogUITests.framework */,
+				0315C3F7491947EC1D1A8A2C /* Pods_FindYourDogTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83A32842225AC20AB383F46D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09BC8D406908D8DFDADA156D /* Pods-FindYourDog.debug.xcconfig */,
+				17F4BC17C45144CF60D2A2A9 /* Pods-FindYourDog.release.xcconfig */,
+				05629944FBA445E13D1A054C /* Pods-FindYourDog-FindYourDogUITests.debug.xcconfig */,
+				12C4E1BA4095B83A64AE2B47 /* Pods-FindYourDog-FindYourDogUITests.release.xcconfig */,
+				9661621BC2577C472DB9891F /* Pods-FindYourDogTests.debug.xcconfig */,
+				721709F54B7AA5DB5D3A49FB /* Pods-FindYourDogTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C46223F62AA6583300D67482 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +191,8 @@
 				C46224122AA6583500D67482 /* FindYourDogTests */,
 				C462241C2AA6583500D67482 /* FindYourDogUITests */,
 				C46224002AA6583300D67482 /* Products */,
+				83A32842225AC20AB383F46D /* Pods */,
+				34203DC6E295C20E48E26D12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,8 +209,12 @@
 		C46224012AA6583300D67482 /* FindYourDog */ = {
 			isa = PBXGroup;
 			children = (
+				C462245E2AA764AC00D67482 /* Search */,
+				C46224322AA66BD300D67482 /* Breeds */,
+				C46224482AA66FB500D67482 /* BreedDetail */,
+				C462242F2AA66A9F00D67482 /* Components */,
+				C462242C2AA6696F00D67482 /* Main */,
 				C46224022AA6583300D67482 /* FindYourDogApp.swift */,
-				C46224042AA6583300D67482 /* ContentView.swift */,
 				C46224062AA6583500D67482 /* Assets.xcassets */,
 				C46224082AA6583500D67482 /* Preview Content */,
 			);
@@ -113,7 +232,6 @@
 		C46224122AA6583500D67482 /* FindYourDogTests */ = {
 			isa = PBXGroup;
 			children = (
-				C46224132AA6583500D67482 /* FindYourDogTests.swift */,
 			);
 			path = FindYourDogTests;
 			sourceTree = "<group>";
@@ -127,6 +245,123 @@
 			path = FindYourDogUITests;
 			sourceTree = "<group>";
 		};
+		C462242C2AA6696F00D67482 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C462242D2AA6698000D67482 /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C462242F2AA66A9F00D67482 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C46224442AA66EF100D67482 /* AsyncImageView.swift */,
+				C46224302AA66AB500D67482 /* API.swift */,
+				C462243C2AA66D8A00D67482 /* BreedPersistence.swift */,
+				C46224862AAA957300D67482 /* ColorExt.swift */,
+				C462243E2AA66DE400D67482 /* LoadingView.swift */,
+				C46224542AA6A1E900D67482 /* ToggleButton.swift */,
+				C462245C2AA74D5A00D67482 /* ToggleSortButton.swift */,
+				C462248A2AAAB0C300D67482 /* mockData.json */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C46224322AA66BD300D67482 /* Breeds */ = {
+			isa = PBXGroup;
+			children = (
+				C46224332AA66BDC00D67482 /* Model */,
+				C46224342AA66BE200D67482 /* View */,
+				C46224352AA66BE800D67482 /* ViewModel */,
+			);
+			path = Breeds;
+			sourceTree = "<group>";
+		};
+		C46224332AA66BDC00D67482 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C46224362AA66C3900D67482 /* BreedModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C46224342AA66BE200D67482 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C46224382AA66C6200D67482 /* BreedsView.swift */,
+				C46224562AA7312000D67482 /* BreedGridView.swift */,
+				C46224402AA66E2F00D67482 /* BreedGridViewRow.swift */,
+				C46224582AA7316000D67482 /* BreedListView.swift */,
+				C46224512AA6845000D67482 /* BreedListViewRow.swift */,
+				C46224422AA66E7E00D67482 /* BreedImageLoaderView.swift */,
+				C462245A2AA742F100D67482 /* BreedToggleButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C46224352AA66BE800D67482 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C462243A2AA66CAE00D67482 /* BreedVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C46224482AA66FB500D67482 /* BreedDetail */ = {
+			isa = PBXGroup;
+			children = (
+				C462244A2AA66FF300D67482 /* View */,
+				C46224492AA66FE400D67482 /* ViewModel */,
+			);
+			path = BreedDetail;
+			sourceTree = "<group>";
+		};
+		C46224492AA66FE400D67482 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C462244B2AA6700600D67482 /* BreedDetailVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C462244A2AA66FF300D67482 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C462244D2AA6701C00D67482 /* BreedDetailView.swift */,
+				C462244F2AA6704800D67482 /* BreedDetailRow.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C462245E2AA764AC00D67482 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				C46224612AA764CA00D67482 /* ViewModel */,
+				C46224602AA764C300D67482 /* View */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		C46224602AA764C300D67482 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C462247C2AA9177000D67482 /* SearchView.swift */,
+				C462247E2AA91F7500D67482 /* SearchBar.swift */,
+				C46224802AA91FB600D67482 /* SearchListView.swift */,
+				C46224822AA91FFA00D67482 /* SearchGridView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C46224612AA764CA00D67482 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C462247A2AA9174E00D67482 /* SearchVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +369,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C46224232AA6583500D67482 /* Build configuration list for PBXNativeTarget "FindYourDog" */;
 			buildPhases = (
+				6EBE338B4994EF10DC525178 /* [CP] Check Pods Manifest.lock */,
 				C46223FB2AA6583300D67482 /* Sources */,
 				C46223FC2AA6583300D67482 /* Frameworks */,
 				C46223FD2AA6583300D67482 /* Resources */,
+				B2A04BC2976C4D5874D8A1B9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +388,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C46224262AA6583500D67482 /* Build configuration list for PBXNativeTarget "FindYourDogTests" */;
 			buildPhases = (
+				A5FAD69FC4DD32F7FA537CE0 /* [CP] Check Pods Manifest.lock */,
 				C462240B2AA6583500D67482 /* Sources */,
 				C462240C2AA6583500D67482 /* Frameworks */,
 				C462240D2AA6583500D67482 /* Resources */,
@@ -169,9 +407,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C46224292AA6583500D67482 /* Build configuration list for PBXNativeTarget "FindYourDogUITests" */;
 			buildPhases = (
+				8BE622E116AE39C459DD82C1 /* [CP] Check Pods Manifest.lock */,
 				C46224152AA6583500D67482 /* Sources */,
 				C46224162AA6583500D67482 /* Frameworks */,
 				C46224172AA6583500D67482 /* Resources */,
+				4198F5C64ED628DCEE8D985D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,6 +471,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C462248B2AAAB0C300D67482 /* mockData.json in Resources */,
 				C462240A2AA6583500D67482 /* Preview Assets.xcassets in Resources */,
 				C46224072AA6583500D67482 /* Assets.xcassets in Resources */,
 			);
@@ -240,6 +481,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C462248C2AAAB0C300D67482 /* mockData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,18 +489,146 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C462248D2AAAB0C300D67482 /* mockData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4198F5C64ED628DCEE8D985D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindYourDog-FindYourDogUITests/Pods-FindYourDog-FindYourDogUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindYourDog-FindYourDogUITests/Pods-FindYourDog-FindYourDogUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FindYourDog-FindYourDogUITests/Pods-FindYourDog-FindYourDogUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EBE338B4994EF10DC525178 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindYourDog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BE622E116AE39C459DD82C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindYourDog-FindYourDogUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5FAD69FC4DD32F7FA537CE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindYourDogTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2A04BC2976C4D5874D8A1B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindYourDog/Pods-FindYourDog-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindYourDog/Pods-FindYourDog-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FindYourDog/Pods-FindYourDog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C46223FB2AA6583300D67482 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C46224052AA6583300D67482 /* ContentView.swift in Sources */,
+				C46224522AA6845000D67482 /* BreedListViewRow.swift in Sources */,
+				C462242E2AA6698000D67482 /* MainView.swift in Sources */,
+				C46224312AA66AB500D67482 /* API.swift in Sources */,
+				C462245D2AA74D5A00D67482 /* ToggleSortButton.swift in Sources */,
+				C462243B2AA66CAE00D67482 /* BreedVM.swift in Sources */,
+				C46224392AA66C6200D67482 /* BreedsView.swift in Sources */,
+				C4B1576C2AAAC0B500A108E6 /* BreedPersistence.swift in Sources */,
 				C46224032AA6583300D67482 /* FindYourDogApp.swift in Sources */,
+				C46224452AA66EF100D67482 /* AsyncImageView.swift in Sources */,
+				C462244C2AA6700600D67482 /* BreedDetailVM.swift in Sources */,
+				C46224592AA7316000D67482 /* BreedListView.swift in Sources */,
+				C462247D2AA9177100D67482 /* SearchView.swift in Sources */,
+				C462243F2AA66DE400D67482 /* LoadingView.swift in Sources */,
+				C46224812AA91FB600D67482 /* SearchListView.swift in Sources */,
+				C46224372AA66C3900D67482 /* BreedModel.swift in Sources */,
+				C46224832AA91FFA00D67482 /* SearchGridView.swift in Sources */,
+				C462247B2AA9174E00D67482 /* SearchVM.swift in Sources */,
+				C46224572AA7312000D67482 /* BreedGridView.swift in Sources */,
+				C46224412AA66E2F00D67482 /* BreedGridViewRow.swift in Sources */,
+				C462247F2AA91F7500D67482 /* SearchBar.swift in Sources */,
+				C46224552AA6A1E900D67482 /* ToggleButton.swift in Sources */,
+				C462244E2AA6701C00D67482 /* BreedDetailView.swift in Sources */,
+				C462245B2AA742F200D67482 /* BreedToggleButton.swift in Sources */,
+				C46224502AA6704800D67482 /* BreedDetailRow.swift in Sources */,
+				C46224432AA66E7E00D67482 /* BreedImageLoaderView.swift in Sources */,
+				C46224872AAA957300D67482 /* ColorExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +636,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C46224142AA6583500D67482 /* FindYourDogTests.swift in Sources */,
+				C4B157502AAABCE500A108E6 /* BreedModel.swift in Sources */,
+				C4B1575D2AAABD2100A108E6 /* ColorExt.swift in Sources */,
+				C46224532AA68ACA00D67482 /* BreedsView.swift in Sources */,
+				C4B1575E2AAABD3400A108E6 /* ToggleSortButton.swift in Sources */,
+				C4B1574E2AAABC9C00A108E6 /* BreedVM.swift in Sources */,
+				C4B157622AAABF7000A108E6 /* FindYourDogApp.swift in Sources */,
+				C4B157592AAABD0000A108E6 /* BreedDetailVM.swift in Sources */,
+				C4B1575F2AAABD4400A108E6 /* ToggleButton.swift in Sources */,
+				C4B157522AAABCEB00A108E6 /* BreedGridViewRow.swift in Sources */,
+				C4B157552AAABCF200A108E6 /* BreedImageLoaderView.swift in Sources */,
+				C4B157532AAABCEE00A108E6 /* BreedListView.swift in Sources */,
+				C4B157542AAABCF000A108E6 /* BreedListViewRow.swift in Sources */,
+				C4B157692AAAC07500A108E6 /* SearchBar.swift in Sources */,
+				C4B157512AAABCE900A108E6 /* BreedGridView.swift in Sources */,
+				C4B157672AAAC06F00A108E6 /* SearchGridView.swift in Sources */,
+				C4B1574F2AAABCB800A108E6 /* LoadingView.swift in Sources */,
+				C4B1575A2AAABD0300A108E6 /* AsyncImageView.swift in Sources */,
+				C4B1576A2AAAC07800A108E6 /* SearchView.swift in Sources */,
+				C4B157572AAABCF900A108E6 /* BreedDetailView.swift in Sources */,
+				C4B157562AAABCF400A108E6 /* BreedToggleButton.swift in Sources */,
+				C4B157632AAABF8F00A108E6 /* MainView.swift in Sources */,
+				C4B157582AAABCFC00A108E6 /* BreedDetailRow.swift in Sources */,
+				C4B1575B2AAABD0600A108E6 /* API.swift in Sources */,
+				C4B1576B2AAAC07A00A108E6 /* SearchVM.swift in Sources */,
+				C4B157682AAAC07300A108E6 /* SearchListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +805,7 @@
 		};
 		C46224242AA6583500D67482 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09BC8D406908D8DFDADA156D /* Pods-FindYourDog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -420,6 +815,8 @@
 				DEVELOPMENT_TEAM = S748LY9WA5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Find your Dog";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -441,6 +838,7 @@
 		};
 		C46224252AA6583500D67482 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17F4BC17C45144CF60D2A2A9 /* Pods-FindYourDog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -450,6 +848,8 @@
 				DEVELOPMENT_TEAM = S748LY9WA5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Find your Dog";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -471,6 +871,7 @@
 		};
 		C46224272AA6583500D67482 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9661621BC2577C472DB9891F /* Pods-FindYourDogTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +892,7 @@
 		};
 		C46224282AA6583500D67482 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 721709F54B7AA5DB5D3A49FB /* Pods-FindYourDogTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +913,7 @@
 		};
 		C462242A2AA6583500D67482 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05629944FBA445E13D1A054C /* Pods-FindYourDog-FindYourDogUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -529,6 +932,7 @@
 		};
 		C462242B2AA6583500D67482 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12C4E1BA4095B83A64AE2B47 /* Pods-FindYourDog-FindYourDogUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
