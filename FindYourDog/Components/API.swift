@@ -12,6 +12,8 @@ struct API {
     
     static let imageURL = "https://cdn2.thedogapi.com/images"
     
+    static let searchURL = "https://api.thedogapi.com/v1/breeds/search?q="
+    
     static func breedImageURL(referenceImageID: String) -> URL? {
         return URL(string: "\(baseURL)/images/\(referenceImageID).jpg")
     }

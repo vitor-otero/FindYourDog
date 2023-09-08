@@ -1,42 +1,67 @@
 //
-//  RemoteImageView.swift
+//  AsyncImageView.swift
 //  FindYourDog
 //
 //  Created by Vítor Otero on 04/09/2023.
 //
 
 import SwiftUI
+import Combine
 
 struct AsyncImageView: View {
     @StateObject private var imageLoader = ImageLoader()
     let url: URL?
     
     var body: some View {
-        if let uiImage = imageLoader.image {
-            Image(uiImage: uiImage)
-                .resizable()
-                .scaledToFit()
-        } else {
-            ProgressView()
-                .onAppear {
-                    if let url = url {
-                        imageLoader.loadImage(from: url)
-                    }
-                }
+        Group {
+            if let uiImage = imageLoader.image {
+                Image(uiImage: uiImage)
+                    .resizable()
+                    .scaledToFit()
+            } else {
+                DefaultImageView()
+            }
         }
+        .onAppear {
+            if let url = url {
+                imageLoader.loadImage(from: url)
+            }
+        }
+    }
+    
+    @ViewBuilder
+    private func DefaultImageView() -> some View {
+        Image("no-image")
+            .resizable()
+            .scaledToFit()
     }
 }
 
 class ImageLoader: ObservableObject {
     @Published var image: UIImage?
     
-    func loadImage(from url: URL) {
-        URLSession.shared.dataTask(with: url) { data, _, error in
-            if let data = data, let loadedImage = UIImage(data: data) {
-                DispatchQueue.main.async {
-                    self.image = loadedImage
-                }
+    private var cancellable: AnyCancellable?
+    
+    func loadImage(from url: URL?) {
+        guard let url = url else {
+            return
+        }
+        
+        cancellable = URLSession.shared.dataTaskPublisher(for: url)
+            .map(\.data)
+            .compactMap { data in
+                UIImage(data: data)
             }
-        }.resume()
+            .receive(on: DispatchQueue.main)
+            .sink { completion in
+                switch completion {
+                case .finished:
+                    break
+                case .failure:
+                    self.image = nil
+                }
+            } receiveValue: { image in
+                self.image = image
+            }
     }
 }

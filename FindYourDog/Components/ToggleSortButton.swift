@@ -7,22 +7,26 @@
 
 import SwiftUI
 
-struct ToggleSortButton: View {
+protocol SortableBreedsViewModel {
+    func sortFilteredBreedsAlphabetically()
+}
+
+struct ToggleSortButton<ViewModel: SortableBreedsViewModel>: View {
     @State private var isSorted = false
-    var viewModel: BreedVM
+    var viewModel: ViewModel
 
     var body: some View {
         Button(action: {
             isSorted.toggle()
-                viewModel.sortBreedsAlphabetically()
-            }) {
-                Text("Sort Alphabetically")
-                    .font(.headline)
-                    .foregroundColor(isSorted ? .white : .accentColor)
-                    .padding(.vertical, 8)
-                    .padding(.horizontal, 16)
-                    .background(isSorted ? Color.accentColor : Color.accentColor.opacity(0.1))
-                    .cornerRadius(10)
-            }
+            viewModel.sortFilteredBreedsAlphabetically()
+        }) {
+            Text("Sort Alphabetically")
+                .font(.headline)
+                .foregroundColor(isSorted ? .customLightGray : .customDarkGray)
+                .padding(.vertical, 8)
+                .padding(.horizontal, 16)
+                .background(isSorted ? Color.customDarkGray : Color.customLightGray)
+                .cornerRadius(10)
+        }
     }
 }
