@@ -27,21 +27,24 @@ struct BreedGridViewRow: View {
                     )
             } else {
                 BreedImageLoaderView(breed: breed, realm: realm)
-                    .scaledToFit()
-                    .cornerRadius(10)
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 10)
-                            .stroke(Color.gray, lineWidth: 1)
-                    )
+                    .aspectRatio(contentMode: .fill)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .background(Color.white)
+                
+                    .shadow(radius: 5)
             }
             Text(breed.name)
-                .font(.caption)
+                .font(.caption).bold()
+                .padding(5)
+                .foregroundColor(Color.customLightGray)
                 .multilineTextAlignment(.center)
                 .lineLimit(2)
         }
-        .padding()
-        .background(Color.white)
+        
+        .background(Color.customDarkGray)
         .cornerRadius(10)
         .shadow(radius: 5)
+        
+        
     }
 }

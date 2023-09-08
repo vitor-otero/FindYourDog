@@ -11,7 +11,7 @@ struct ToggleButton: View {
     var title: String
     var selected: Bool
     var action: () -> Void
-
+    
     var body: some View {
         Button(action: action) {
             Text(title)
