@@ -22,10 +22,10 @@ struct ToggleSortButton<ViewModel: SortableBreedsViewModel>: View {
         }) {
             Text("Sort Alphabetically")
                 .font(.headline)
-                .foregroundColor(isSorted ? .white : .accentColor)
+                .foregroundColor(isSorted ? .customLightGray : .customDarkGray)
                 .padding(.vertical, 8)
                 .padding(.horizontal, 16)
-                .background(isSorted ? Color.accentColor : Color.accentColor.opacity(0.1))
+                .background(isSorted ? Color.customDarkGray : Color.customLightGray)
                 .cornerRadius(10)
         }
     }
