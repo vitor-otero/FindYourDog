@@ -31,7 +31,7 @@ struct SearchListView: View {
                                 .padding(.bottom,15)
                             
                             if let breedGroup = breed.breed_group, !breedGroup.isEmpty {
-                                BreedDetailRow(title: "Breed Category", detail: breedGroup)
+                                BreedDetailRow(title: "Breed group", detail: breedGroup)
                                 
                             }
                             

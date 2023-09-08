@@ -32,7 +32,7 @@ struct SearchGridView: View {
                                 .lineLimit(3)
                             
                             if let breedGroup = breed.breed_group, !breedGroup.isEmpty {
-                                BreedDetailRow(title: "Breed Category", detail: breedGroup)
+                                BreedDetailRow(title: "Breed group", detail: breedGroup)
                                 
                             }
                             
