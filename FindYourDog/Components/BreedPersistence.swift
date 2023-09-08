@@ -13,9 +13,8 @@ class BreedPersistence: Object {
     @objc dynamic var name = ""
     @objc dynamic var referenceImageId = ""
     @objc dynamic var imageData: Data?
-
+    
     override static func primaryKey() -> String? {
         return "id"
     }
 }
-

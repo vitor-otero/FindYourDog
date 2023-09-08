@@ -14,7 +14,7 @@ protocol SortableBreedsViewModel {
 struct ToggleSortButton<ViewModel: SortableBreedsViewModel>: View {
     @State private var isSorted = false
     var viewModel: ViewModel
-
+    
     var body: some View {
         Button(action: {
             isSorted.toggle()

@@ -13,7 +13,7 @@ struct BreedGridView: View {
     
     var body: some View {
         ScrollView {
-            LazyVGrid(columns: columns, spacing: 16) {
+            LazyVGrid(columns: columns, spacing: 15) {
                 ForEach(viewModel.displayedBreeds, id: \.id) { breed in
                     NavigationLink(destination: BreedDetailView(breed: breed)) {
                         BreedGridViewRow(breed: breed, realm: viewModel.realm)
@@ -25,8 +25,8 @@ struct BreedGridView: View {
                     }
                 }
             }
-            .padding(.horizontal, 16)
-            .padding(.vertical, 8)
+            .padding(.horizontal, 10)
+            .padding(.vertical, 10)
             
             if viewModel.isFetchingData {
                 LoadingView(isCompact: true)

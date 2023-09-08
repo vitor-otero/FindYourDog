@@ -30,10 +30,10 @@ struct BreedListViewRow: View {
             Text(breed.name)
                 .font(.headline)
                 .lineLimit(1)
-                .foregroundColor(.primary)
+                .foregroundColor(Color.customDarkGray)
             Spacer()
         }
-    .background(Color.white)
+        .background(Color.white)
     }
 }
 
