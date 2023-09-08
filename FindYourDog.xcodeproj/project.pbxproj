@@ -40,6 +40,7 @@
 		C462247F2AA91F7500D67482 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462247E2AA91F7500D67482 /* SearchBar.swift */; };
 		C46224812AA91FB600D67482 /* SearchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224802AA91FB600D67482 /* SearchListView.swift */; };
 		C46224832AA91FFA00D67482 /* SearchGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224822AA91FFA00D67482 /* SearchGridView.swift */; };
+		C46224872AAA957300D67482 /* ColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46224862AAA957300D67482 /* ColorExt.swift */; };
 		F11A0A1DC450DBADA68F05DF /* Pods_FindYourDog_FindYourDogUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48CD368A7EABD68A281FBC36 /* Pods_FindYourDog_FindYourDogUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -103,6 +104,7 @@
 		C462247E2AA91F7500D67482 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		C46224802AA91FB600D67482 /* SearchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListView.swift; sourceTree = "<group>"; };
 		C46224822AA91FFA00D67482 /* SearchGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchGridView.swift; sourceTree = "<group>"; };
+		C46224862AAA957300D67482 /* ColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +234,7 @@
 				C46224442AA66EF100D67482 /* AsyncImageView.swift */,
 				C46224302AA66AB500D67482 /* API.swift */,
 				C462243C2AA66D8A00D67482 /* BreedPersistence.swift */,
+				C46224862AAA957300D67482 /* ColorExt.swift */,
 				C462243E2AA66DE400D67482 /* LoadingView.swift */,
 				C46224542AA6A1E900D67482 /* ToggleButton.swift */,
 				C462245C2AA74D5A00D67482 /* ToggleSortButton.swift */,
@@ -310,16 +313,8 @@
 			children = (
 				C46224612AA764CA00D67482 /* ViewModel */,
 				C46224602AA764C300D67482 /* View */,
-				C462245F2AA764B900D67482 /* Model */,
 			);
 			path = Search;
-			sourceTree = "<group>";
-		};
-		C462245F2AA764B900D67482 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		C46224602AA764C300D67482 /* View */ = {
@@ -604,6 +599,7 @@
 				C462243D2AA66D8A00D67482 /* BreedPersistence.swift in Sources */,
 				C46224502AA6704800D67482 /* BreedDetailRow.swift in Sources */,
 				C46224432AA66E7E00D67482 /* BreedImageLoaderView.swift in Sources */,
+				C46224872AAA957300D67482 /* ColorExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
