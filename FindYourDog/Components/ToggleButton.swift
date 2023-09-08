@@ -16,10 +16,10 @@ struct ToggleButton: View {
         Button(action: action) {
             Text(title)
                 .font(.headline)
-                .foregroundColor(selected ? .white : .accentColor)
+                .foregroundColor(selected ? .customLightGray : .customDarkGray)
                 .padding(.vertical, 8)
                 .padding(.horizontal, 16)
-                .background(selected ? Color.accentColor : Color.accentColor.opacity(0.1))
+                .background(selected ? Color.customDarkGray : Color.customLightGray)
                 .cornerRadius(10)
         }
     }
