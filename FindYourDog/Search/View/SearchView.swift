@@ -38,3 +38,26 @@ struct SearchView: View {
         }
     }
 }
+
+struct SearchView_Previews: PreviewProvider {
+    static var previews: some View {
+        
+        if let url = Bundle.main.url(forResource: "mockData", withExtension: "json") {
+            do {
+                let data = try Data(contentsOf: url)
+                let mockData = try JSONDecoder().decode([BreedModel].self, from: data)
+                
+                let mockViewModel = SearchVM()
+                mockViewModel.dogBreeds = mockData
+                
+                return AnyView(SearchView()
+                    .environmentObject(mockViewModel))
+            } catch let error as NSError {
+                print("Error loading mock data: \(error)")
+            } catch {
+                print("An unknown error occurred while loading mock data.")
+            }
+        }
+        return AnyView(Text("Failed to load mock data"))
+    }
+}
