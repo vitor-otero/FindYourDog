@@ -13,22 +13,40 @@ struct SearchListView: View {
     var body: some View {
        
             List(breeds) { breed in
-                NavigationLink(destination: BreedDetailView(breed: breed)) { // Add NavigationLink
+                NavigationLink(destination: BreedDetailView(breed: breed)) {
                     HStack(spacing: 10) {
-                        //TODO: - Need to fix the requirements and the display style
-                        AsyncImageView(url: URL(string: "\(API.imageURL)/\(breed.reference_image_id).jpg"))
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: 60, height: 60)
-                            .cornerRadius(10)
+                        //MARK: - Nice to have
+//                            AsyncImageView(url: URL(string: "\(API.imageURL)/\(breed.reference_image_id).jpg"))
+//                                .padding(.top, 20)
+//                                .aspectRatio(contentMode: .fill)
+//                                .frame(maxWidth: 200, maxHeight: 200)
+//                                .cornerRadius(10)
+//                                .shadow(radius: 5)
                         
-                        Text(breed.name)
-                            .font(.headline)
-                            .lineLimit(1)
-                            .foregroundColor(.primary)
+                        VStack {
+                            Text(breed.name)
+                                .font(.title2)
+                                .multilineTextAlignment(.center)
+                                .lineLimit(3)
+                                .padding(.bottom,15)
+                            
+                            if let breedGroup = breed.breed_group, !breedGroup.isEmpty {
+                                BreedDetailRow(title: "Breed Category", detail: breedGroup)
+                                
+                            }
+                            
+                            if let origin = breed.origin, !origin.isEmpty {
+                                BreedDetailRow(title: "Origin", detail: origin)
+                            }
+                            
+                            if let temperament = breed.temperament, !temperament.isEmpty {
+                                BreedDetailRow(title: "Temperament", detail: temperament)
+                                
+                            }
+                        }
                         
-                        Spacer()
-                    }
-                    .background(Color.white)
+                    }.foregroundColor(.customDarkGray)
+                        .padding(.horizontal, 10)
                 }
             }
             .listStyle(.plain)
